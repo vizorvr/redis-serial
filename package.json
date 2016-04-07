@@ -1,0 +1,32 @@
+{
+  "name": "redis-serial",
+  "version": "1.0.0",
+  "description": "Generate a serial number via Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/vizorvr/redis-serial"
+  },
+  "keywords": [
+    "redis",
+    "serial",
+    "number"
+  ],
+  "author": "jaakko@vizor.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vizorvr/redis-serial/issues"
+  },
+  "dependencies": {
+    "redis": "~2.4.2",
+    "when": "~3.5.1"
+  },
+  "devDependencies": {
+    "mocha": "2.3.3"
+  },
+  "homepage": "https://github.com/vizorvr/redis-serial"
+}
+
